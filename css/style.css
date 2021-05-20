@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Yanone+Kaffeesatz:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Merriweather;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header, main, footer{
+    min-width: 800px;
+    
+}
+header{
+    background-color: #4254fe;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    min-width: 1000px;
+
+    
+}
+.text{
+    position: absolute;
+    width: 459px;
+    height: 58px;
+    left:65px;
+    top:23px;
+    
+    font-family: Yanone Kaffeesatz;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 50px;
+    
+    color: #ffffff;
+}
+.logo{
+    padding-left: 1px;
+    margin-top: 5px;
+}
+#main_menu li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+nav {
+    background-color: #7380FB;
+    padding-top: 1px;
+}
+.knopka{
+
+    font-size: 22px;
+
+}
+.name-main {
+    font-family: Yanone Kaffeesatz;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    border: black solid 0px;
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.team {
+    font-family: Merriweather;
+    font-size: 30px;
+    background-color: white;
+    min-height: 270px;
+
+}
+#team1{
+    text-align: center;
+    font-family:Merriweather;
+    font-size: 30px;
+}
+/*#xas {
+    text-align: right;
+    position: absolute;
+    width: 450px;
+    height: 58px;
+    left: 900px;
+    top: 158px;
+    font-family: Merriweather;
+    text-align: right;
+    vertical-align: top;
+}
+#asia {
+    text-align: center;
+    position: absolute;
+    width: 459px;
+    height: 58px;
+    left: 450px;
+    top: 175px;
+    font-family: Merriweather;
+}
+#mini {
+    text-align: right;
+    position: absolute;
+    width: 459px;
+    height: 58px;
+    left: 860px;
+    top: 196px;
+    font-family: Merriweather;
+    text-align: right;
+    vertical-align: top;
+}*/
+/*.team12 .team3 .team45{
+    display: block;
+}
+.team12{
+    text-align: left;
+    background-color: yellowgreen;
+}
+.team3{
+    text-align: center;
+    vertical-align: top;
+    background-color: yellow;
+}
+.team45{ 
+    text-align: right;
+    vertical-align: top;
+    background-color: teal;
+}
+.team-main{
+
+}*/
+
+.content {
+    flex-grow: 1;
+}
+
+.article {
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 30px;
+    background-color: #7380FB;
+}
+.glavnaya {
+    border: black solid 0px;
+    background-color:  #7380FB;
+    min-height: 370px;
+}
+.nomer_stat {
+    font-size: 26px;
+    font-family: Merriweather;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.knopka2{
+    background-color:  #8894ff;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: #8894ff;
+    box-shadow: #8894ff inset;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 0;
+    outline: none;
+}
+.knopka2:hover { background: #596afd }
+.knopka2:active {
+  background: #5161f7;
+  box-shadow: 0 3px #5161f7 inset;
+}
+.prilojenie{
+    background-color: white;
+    text-align: center;
+    min-height: 500px;
+}
+#prilojenie{
+    font-family: Yanone Kaffeesatz;
+    font-size: 50px;
+}
+.obratka{
+    background-color:  #7380FB;
+    text-align: center;
+    min-height: 100px;
+}
+#obratka{
+    font-family:Yanone Kaffeesatz;
+    font-size: 50px;
+}
+footer{
+    background-color: #4254fe;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+
+}
+.konec{
+    font-family: Yanone Kaffeesatz;
+    font-size: 24px;
+}
+.article-main{
+    background-color: white;
+    min-height: 500px;
+    width: 1500px;
+    font-family: Merriweather;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 150px;
+}
+#name_tag{
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 50px;
+}
+#red_stroka{
+    margin-left: 25px;
+    /*background-color: black;*/
+}
+#parag{
+    margin: 15px;
+}
+#otstup1{
+    margin-left: 30px;
+}
+#otstup2{
+    margin-left: 60px;
+}
+#otstup3{
+    margin-left: 90px;
+}
+#name_tag1{
+    text-align: left;
+    font-family: Yanone Kaffeesatz;
+    font-size: 50px;
+}
+#otstup4{
+    margin-left:120px;
+}
+#otstup5{
+    margin-left:150px;
+}
+#tagInfo{
+    text-align: center;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 36px;
+}
+#nameCode{
+    color: #1481F5;
+    
+}
+.btn{
+    margin-bottom: 80px;
+    margin-right: 40px;
+}
+#btn2{
+    margin-left: 100px;
+    
+    margin-top: 40px;
+    left: 50px;
+}
+
+#greenColor{
+    color: #319774;
+}
+#redColor{
+    color: red;
+    font-size: 200%;
+}
+.tagPriloj{
+    border: #1481F5 solid 2px;
+    padding: 10px;
+
+}
+#example{
+    border: #1481F5 solid 2px;
+    padding: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.img1{
+    width: 100%;
+    min-width: 10px;
+    height: auto;
+}
